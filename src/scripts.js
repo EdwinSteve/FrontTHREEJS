@@ -123,6 +123,25 @@ document.body.appendChild(popup);
 
 let osdViewer = null;
 
+async function getData(identifier) {
+  const url = 'http://localhost:4000/api/v1/data?title=' + identifier;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    console.log(result);
+
+    // Acceder al primer elemento de result.data (si existe)
+    return result.data && result.data.length > 0 ? result.data[0] : null;
+  } catch (error) {
+    console.error('Error al obtener datos:', error.message);
+  }
+}
+
+
 function showMissionPopup(mission, x, y) {
   popup.innerHTML = `<strong>${mission.identifier}</strong><br>${mission.dataset}`;
   popup.style.left = `${x + 10}px`;
@@ -130,6 +149,13 @@ function showMissionPopup(mission, x, y) {
   popup.style.display = "block";
 
   h2.textContent = mission.identifier;
+  getData(mission.identifier)
+    .then(description => {
+      console.log(description.description_image);
+      h3.textContent = description.description_image;
+      h3.fontSize = 1;
+    })
+    .catch(error => console.error(error));
   p.textContent = `Lat: ${mission.latitude}, Lon: ${mission.longitude}`;
   console.log(`Lat: ${mission.latitude}, Lon: ${mission.longitude}`);
   console.log(mission.tiffUrl);
@@ -315,7 +341,7 @@ animate();
 // =====================
 // === BOTÓN ===
 const button = document.createElement("button");
-button.innerText = "🚀 Misiones Espaciales";
+button.innerText = "🚀 NASA Missions";
 button.className = "floating-button";
 document.body.appendChild(button);
 
@@ -324,7 +350,7 @@ document.body.appendChild(button);
 // Supongamos que tienes estos datos
 //const lroc = { title: "Título LROC", url_badge: badgeImg};
 
-const data = { identifier: "Misión 1", latitude: 12.34, longitude: 56.78 };
+//const data = { identifier: "Misión 1", latitude: 12.34, longitude: 56.78 };
 const iframeSrc = "https://example.com/map";
 
 // Crear el div principal
@@ -353,7 +379,7 @@ headerDiv.appendChild(img);
 // Identificador
 const h3 = document.createElement("h3");
 h3.style.color = "white";
-h3.textContent = data.identifier;
+h3.style.fontSize = 4;
 
 // Iframe
 const iframe = document.createElement("div");
@@ -383,7 +409,7 @@ button.addEventListener("click", () => {
   isLaunching = true;
   launchProgress = 0;
   button.disabled = true;
-  button.innerText = "🌌 Despegando...";
+  button.innerText = "🌌 Taking off...";
 });
 
 // =====================
@@ -394,9 +420,9 @@ const style = document.createElement("style");
 style.textContent = `
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
 .floating-button {
-  position: fixed; top: 80%; right: 180px; transform: translateY(-50%);
+  position: fixed; top: 90%; right: 180px; transform: translateY(-50%);
   background: transparent; color: #00eaff; border: 2px solid rgba(0,234,255,0.4);
-  border-radius: 8px; padding: 12px 28px; font-family: 'Orbitron', sans-serif;
+  border-radius: 8px; padding: 12px 28px; font-family: 'Nasa', sans-serif;
   font-weight: 600; font-size: 17px; letter-spacing: 2px; cursor: pointer;
   text-transform: uppercase; box-shadow: 0 0 12px rgba(0,234,255,0.4);
   transition: all 0.3s ease; z-index: 10; backdrop-filter: blur(6px);
@@ -417,7 +443,7 @@ style.textContent = `
 .mission-popup {
   position: absolute; background: rgba(0,0,0,0.85); color: #00eaff;
   padding: 10px 15px; border: 1px solid #00eaff; border-radius: 10px;
-  font-family: 'Orbitron', sans-serif; font-size: 13px;
+  font-family: 'Nasa', sans-serif; font-size: 13px;
   pointer-events: none; z-index: 20; text-shadow: 0 0 8px #00eaff;
 }
   

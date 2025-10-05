@@ -1,0 +1,202 @@
+[
+  {
+    "identifier": "M1504671121RE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": -79.5,
+    "longitude": 252.69,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504671121RE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504671121RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504671121LE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": -79.61,
+    "longitude": 253.44,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504671121LE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504671121LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504671121LC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": -79.61,
+    "longitude": 253.44,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504671121LC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504671121LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504671121RC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": -79.5,
+    "longitude": 252.69,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504671121RC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504671121RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504667417RC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": 82.66,
+    "longitude": 355.72,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504667417RC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504667417RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504667417LC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": 82.56,
+    "longitude": 356.13,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504667417LC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504667417LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504667417RE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": 82.66,
+    "longitude": 355.72,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504667417RE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504667417RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504667417LE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 2532,
+    "height": 52224,
+    "latitude": 82.56,
+    "longitude": 356.13,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504667417LE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504667417LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666861RC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 27648,
+    "latitude": 56.09,
+    "longitude": 302.45,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504666861RC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666861RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666861LC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 27648,
+    "latitude": 56.07,
+    "longitude": 302.67,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504666861LC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666861LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666861RE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 27648,
+    "latitude": 56.09,
+    "longitude": 302.45,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504666861RE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666861RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666861LE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 27648,
+    "latitude": 56.07,
+    "longitude": 302.67,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504666861LE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666861LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666431LE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 34.52,
+    "longitude": 297.48,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504666431LE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666431LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666431LC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 34.52,
+    "longitude": 297.48,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504666431LC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666431LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666431RC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 34.53,
+    "longitude": 297.32,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504666431RC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666431RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666431RE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 34.53,
+    "longitude": 297.32,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504666431RE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666431RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666102RC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 17.79,
+    "longitude": 294.99,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504666102RC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666102RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666102RE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 17.79,
+    "longitude": 294.99,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504666102RE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666102RC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666102LC",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 17.78,
+    "longitude": 295.14,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-3-CDR-V1.0/M1504666102LC",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666102LC_pyr.tif/"
+  },
+  {
+    "identifier": "M1504666102LE",
+    "dataset": "luna_lroc_pds_nac_edrcdr",
+    "width": 5064,
+    "height": 52224,
+    "latitude": 17.78,
+    "longitude": 295.14,
+    "url": "https://data.lroc.im-ldi.com/lroc/view_lroc/LRO-L-LROC-2-EDR-V1.0/M1504666102LE",
+    "tiffUrl": "https://data.lroc.im-ldi.com/ptif/zoomify/ser/estore/lroc/web/LRO-L-LROC-3-CDR-V1.0/LROLRC_1063C/EXTRAS/BROWSE/2025166/M1504666102LC_pyr.tif/"
+  }
+]

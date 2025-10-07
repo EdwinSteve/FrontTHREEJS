@@ -323,14 +323,14 @@ function animate() {
     rocketGroup.rotation.y += 0.01;
   } else {
     launchProgress += 0.01;
-    rocketGroup.position.y += 0.02;
-    rocketGroup.position.z -= 0.2;
-    rocketGroup.rotation.x -= 0.003;
+    rocketGroup.position.y += 0.1;
+    rocketGroup.position.z -= 0.1;
+    rocketGroup.rotation.x -= 0.02;
     animateRocketFlame();
 
-    if (launchProgress > 4) {
+    if (launchProgress > 1) {
       isLaunching = false;
-      setTimeout(window.location.href = "http://localhost:5174/", 800);
+      setTimeout(window.location.href = "http://localhost:5174/", 100);
     }
   }
 

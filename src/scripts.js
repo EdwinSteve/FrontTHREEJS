@@ -324,13 +324,13 @@ function animate() {
   } else {
     launchProgress += 0.01;
     rocketGroup.position.y += 0.1;
-    rocketGroup.position.z -= 0.1;
-    rocketGroup.rotation.x -= 0.02;
+    rocketGroup.position.z -= 0.5;
+    rocketGroup.rotation.x -= 0.01;
     animateRocketFlame();
 
     if (launchProgress > 1) {
       isLaunching = false;
-      setTimeout(window.location.href = "http://localhost:5174/", 100);
+      setTimeout(window.location.href = "http://localhost:5173/", 100);
     }
   }
 
@@ -420,7 +420,7 @@ const style = document.createElement("style");
 style.textContent = `
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
 .floating-button {
-  position: fixed; top: 90%; right: 180px; transform: translateY(-50%);
+  position: fixed; top: 93%; right: 180px; transform: translateY(-50%);
   background: transparent; color: #00eaff; border: 2px solid rgba(0,234,255,0.4);
   border-radius: 8px; padding: 12px 28px; font-family: 'Nasa', sans-serif;
   font-weight: 600; font-size: 17px; letter-spacing: 2px; cursor: pointer;

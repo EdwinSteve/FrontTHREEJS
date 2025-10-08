@@ -124,7 +124,7 @@ document.body.appendChild(popup);
 let osdViewer = null;
 
 async function getData(identifier) {
-  const url = 'http://localhost:4000/api/v1/data?title=' + identifier;
+  const url = 'https://space-apps-nasa-2025.onrender.com/api/v1/data?title=' + identifier;
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -330,7 +330,7 @@ function animate() {
 
     if (launchProgress > 1) {
       isLaunching = false;
-      setTimeout(window.location.href = "http://localhost:5173/", 100);
+      setTimeout(window.location.href = "https://nasaproy.onrender.com/", 100);
     }
   }
 
